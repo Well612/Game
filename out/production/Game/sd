@@ -1,0 +1,38 @@
+switch (e.getKeyCode()){
+                    case 87:
+                        y=y-10;
+                        if(y>=-70){
+                            jLabel_Man.setLocation(x,y);
+                        }
+                        else {
+                            A();
+                            y=400;
+                            jLabel_Man.setLocation(x,y);
+                        }
+                        break;
+                    case 83:
+                        y=y+10;
+                        if(y<=400){
+                            jLabel_Man.setLocation(x,y);
+                        }
+                        else {
+                            A();
+
+                            y=-70;
+                            jLabel_Man.setLocation(x,y);
+                        }
+                        break;
+                    case 65:
+
+                        break;
+                    case 68:
+                        x=x+10;
+                        if(x<=460){
+                            jLabel_Man.setLocation(x,y);
+                        }
+                        else {
+                            A();
+                            x=-20;
+                            jLabel_Man.setLocation(x,y);
+                        }
+                        break;

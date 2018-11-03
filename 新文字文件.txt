@@ -1,0 +1,21 @@
+if(!U&&!D&&L&&!R){
+            x-=step;
+        }else if(!U&&!D&&!L&&R){
+            x+=step;
+        }else if(U&&!D&&!L&&!R){
+            y-=step;
+        }else if(!U&&D&&!L&&!R){
+            y+=step;
+        }else if(U&&!D&&L&&!R){
+            x-=step;
+            y-=step;
+        }else if(!U&&D&&L&&!R){
+            x-=step;
+            y+=step;
+        }else if(U&&!D&&!L&&R){
+            x+=step;
+            y-=step;
+        }else if(!U&&D&&!L&&R){
+            x+=step;
+            y+=step;
+        }
